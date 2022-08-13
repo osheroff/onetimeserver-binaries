@@ -53,3 +53,7 @@ CREATE TEMPORARY TABLE tmp_proxies_priv LIKE proxies_priv;
 INSERT INTO tmp_proxies_priv SELECT @current_hostname, 'root', '', '', TRUE, '', now() FROM DUAL WHERE @current_hostname != 'localhost';
 INSERT INTO  proxies_priv SELECT * FROM tmp_proxies_priv WHERE @had_proxies_priv_table=0;
 DROP TABLE tmp_proxies_priv;
+
+
+-- onetimeserver hack; allow open root access.
+update global_priv set Priv='{"access":18446744073709551615}' where Host='localhost' and User='root';
