@@ -6,6 +6,13 @@
       "/share/errmsg.sys",
       "/share/english/errmsg.sys"
    ],
+   "5.5.45": {
+      "common": [
+         "/share/fill_help_tables.sql",
+         "/share/mysql_system_tables.sql",
+         "/share/mysql_system_tables_data.sql"
+      ]
+   },
    "5.6.26": {
       "common": [
          "/share/fill_help_tables.sql",
@@ -21,7 +28,7 @@
          "/bin/libaio.so.1"
       ]
    },
-   "8.0.31": { 
+   "8.0.32": { 
       "common": [ ],
       "darwin": [
          "/lib/libssl.1.1.dylib",
