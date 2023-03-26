@@ -4,7 +4,14 @@
       "/bin/resolveip",
       "/bin/my_print_defaults", 
       "/share/errmsg.sys",
-      "/share/english/errmsg.sys"
+      "/share/english/errmsg.sys",
+      "/share/fill_help_tables.sql",
+      "/share/maria_add_gis_sp_bootstrap.sql",
+      "/share/mysql_performance_tables.sql",
+      "/share/mysql_sys_schema.sql",
+      "/share/mysql_system_tables.sql",
+      "/share/mysql_system_tables_data.sql",
+      "/share/mysql_test_db.sql"
    ],
    "mariadb-10.8.3": {
       "common": [ ]
