@@ -2,7 +2,6 @@
    "all": [ 
       "/bin/mysqld", 
       "/bin/resolveip",
-      "/bin/my_print_defaults", 
       "/share/errmsg.sys",
       "/share/english/errmsg.sys"
    ],
