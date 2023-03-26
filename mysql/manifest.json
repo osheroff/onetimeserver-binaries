@@ -10,6 +10,9 @@
          "/share/fill_help_tables.sql",
          "/share/mysql_system_tables.sql",
          "/share/mysql_system_tables_data.sql"
+      ],
+      "linux": [
+         "/bin/libaio.so.1"
       ]
    },
    "5.6.26": {
@@ -20,6 +23,18 @@
          "/share/mysql_system_tables_data.sql",
          "/support-files/my-default.cnf",
          "/bin/mysql_tzinfo_to_sql"
+      ],
+      "linux": [
+         "/bin/libaio.so.1"
+      ]
+   },
+   "5.7.17": {
+      "common": [
+         "/share/fill_help_tables.sql",
+         "/share/mysql_security_commands.sql",
+         "/share/mysql_system_tables.sql",
+         "/share/mysql_system_tables_data.sql",
+         "/support-files/my-default.cnf"
       ],
       "linux": [
          "/bin/libaio.so.1"
