@@ -1,27 +1,25 @@
 {
-   "mysql": {
-      "all": [ 
-         "/bin/resolveip",
-         "/share/errmsg.sys",
-         "/share/english/errmsg.sys"
+   "all": [ 
+      "/bin/resolveip",
+      "/share/errmsg.sys",
+      "/share/english/errmsg.sys"
+   ],
+   "5.6.26": {
+      "common": [
+         "/share/fill_help_tables.sql",
+         "/share/mysql_security_commands.sql",
+         "/share/mysql_system_tables.sql",
+         "/share/mysql_system_tables_data.sql",
+         "/support-files/my-default.cnf",
+         "/bin/my_print_defaults",
+         "/bin/mysqld", 
+         "/bin/resolveip"
       ],
-      "5.6.26": {
-         "common": [
-            "/share/fill_help_tables.sql",
-            "/share/mysql_security_commands.sql",
-            "/share/mysql_system_tables.sql",
-            "/share/mysql_system_tables_data.sql",
-            "/support-files/my-default.cnf",
-            "/bin/my_print_defaults",
-            "/bin/mysqld", 
-            "/bin/resolveip"
-         ],
-         "darwin": [ 
-            "/bin/mysql_tzinfo_to_sql"
-         ],
-         "linux": [
-	    "/bin/libaio.so.1"
-         ]
-      }
+      "darwin": [ 
+         "/bin/mysql_tzinfo_to_sql"
+      ],
+      "linux": [
+         "/bin/libaio.so.1"
+      ]
    }
 }
