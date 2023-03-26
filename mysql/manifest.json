@@ -19,9 +19,7 @@
          "/share/mysql_security_commands.sql",
          "/share/mysql_system_tables.sql",
          "/share/mysql_system_tables_data.sql",
-         "/support-files/my-default.cnf"
-      ],
-      "darwin": [ 
+         "/support-files/my-default.cnf",
          "/bin/mysql_tzinfo_to_sql"
       ],
       "linux": [
