@@ -1,6 +1,8 @@
 {
    "all": [ 
+      "/bin/mysqld", 
       "/bin/resolveip",
+      "/bin/my_print_defaults", 
       "/share/errmsg.sys",
       "/share/english/errmsg.sys"
    ],
@@ -10,16 +12,28 @@
          "/share/mysql_security_commands.sql",
          "/share/mysql_system_tables.sql",
          "/share/mysql_system_tables_data.sql",
-         "/support-files/my-default.cnf",
-         "/bin/my_print_defaults",
-         "/bin/mysqld", 
-         "/bin/resolveip"
+         "/support-files/my-default.cnf"
       ],
       "darwin": [ 
          "/bin/mysql_tzinfo_to_sql"
       ],
       "linux": [
          "/bin/libaio.so.1"
+      ]
+   },
+   "8.0.31": { 
+      "common": [ ],
+      "darwin": [
+         "/lib/libssl.1.1.dylib",
+         "/lib/libcrypto.1.1.dylib",
+         "/lib/libprotobuf-lite.3.11.4.dylib",
+         "/lib/libprotobuf.3.11.4.dylib" 
+      ], 
+      "linux": [
+         "/lib/libaio.so.1",
+         "/lib/libnuma.so.1",
+         "/lib/libcrypto.so.1.1",
+         "/lib/libprotobuf-lite.so.3.19.4"
       ]
    }
 }
