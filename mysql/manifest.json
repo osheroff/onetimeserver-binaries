@@ -34,10 +34,10 @@
          "/bin/libprotobuf-lite.3.19.4.dylib"
       ], 
       "linux": [
-         "/lib/libaio.so.1",
-         "/lib/libnuma.so.1",
+         "/bin/libaio.so.1",
+         "/bin/libnuma.so.1",
          "/bin/libcrypto.so.1.1",
-         "/lib/libprotobuf-lite.so.3.19.4"
+         "/bin/libprotobuf-lite.so.3.19.4"
       ]
    }
 }
