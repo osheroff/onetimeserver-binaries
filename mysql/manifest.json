@@ -36,7 +36,7 @@
       "linux": [
          "/lib/libaio.so.1",
          "/lib/libnuma.so.1",
-         "/lib/libcrypto.so.1.1",
+         "/bin/libcrypto.so.1.1",
          "/lib/libprotobuf-lite.so.3.19.4"
       ]
    }
