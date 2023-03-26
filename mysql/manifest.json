@@ -26,8 +26,8 @@
       "darwin": [
          "/lib/libssl.1.1.dylib",
          "/lib/libcrypto.1.1.dylib",
-         "/lib/libprotobuf-lite.3.11.4.dylib",
-         "/lib/libprotobuf.3.11.4.dylib" 
+         "/lib/libprotobuf-lite.3.19.4.dylib",
+         "/lib/libprotobuf.3.19.4.dylib" 
       ], 
       "linux": [
          "/lib/libaio.so.1",
