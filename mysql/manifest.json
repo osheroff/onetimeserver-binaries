@@ -65,6 +65,8 @@
       "darwin": [ ], 
       "linux": [
          "/bin/mysqld.gz",
+         "/bin/libaio.so.1",
+         "/bin/libnuma.so.1",
          "/lib/private/libabsl_log_internal_format.so",
          "/lib/private/libabsl_crc32c.so",
          "/lib/private/libabsl_cord.so",
