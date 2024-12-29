@@ -61,10 +61,10 @@
    },
    "8.4.3": { 
       "common": [
-         "/bin/mysqld.gz"
       ],
       "darwin": [ ], 
       "linux": [
+         "/bin/mysqld.gz",
          "/lib/private/libabsl_log_internal_format.so",
          "/lib/private/libabsl_crc32c.so",
          "/lib/private/libabsl_cord.so",
