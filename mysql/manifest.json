@@ -1,12 +1,12 @@
 {
    "all": [ 
-      "/bin/mysqld", 
       "/bin/resolveip",
       "/share/errmsg.sys",
       "/share/english/errmsg.sys"
    ],
    "5.5.45": {
       "common": [
+         "/bin/mysqld", 
          "/share/fill_help_tables.sql",
          "/share/mysql_system_tables.sql",
          "/share/mysql_system_tables_data.sql"
@@ -17,6 +17,7 @@
    },
    "5.6.26": {
       "common": [
+         "/bin/mysqld", 
          "/share/fill_help_tables.sql",
          "/share/mysql_security_commands.sql",
          "/share/mysql_system_tables.sql",
@@ -41,7 +42,9 @@
       ]
    },
    "8.0.32": { 
-      "common": [ ],
+      "common": [ 
+         "/bin/mysqld"
+      ],
       "darwin": [
          "/lib/libssl.1.1.dylib",
          "/lib/libcrypto.1.1.dylib",
@@ -54,6 +57,102 @@
          "/bin/libcrypto.so.1.1",
          "/bin/libssl.so.1.1",
          "/bin/libprotobuf-lite.so.3.19.4"
+      ]
+   },
+   "8.4.3": { 
+      "common": [
+         "/bin/mysqld.gz"
+      ],
+      "darwin": [ ], 
+      "linux": [
+         "/lib/private/libabsl_log_internal_format.so",
+         "/lib/private/libabsl_crc32c.so",
+         "/lib/private/libabsl_cord.so",
+         "/lib/private/libabsl_hash.so",
+         "/lib/private/libabsl_flags_private_handle_accessor.so",
+         "/lib/private/libabsl_cord_internal.so",
+         "/lib/private/libabsl_strerror.so",
+         "/lib/private/libprotobuf-lite.so.24.4.0",
+         "/lib/private/libabsl_random_internal_randen_hwaes_impl.so",
+         "/lib/private/libabsl_flags_internal.so",
+         "/lib/private/libabsl_cordz_info.so",
+         "/lib/private/libabsl_city.so",
+         "/lib/private/libabsl_log_internal_proto.so",
+         "/lib/private/libabsl_leak_check.so",
+         "/lib/private/libabsl_periodic_sampler.so",
+         "/lib/private/libabsl_kernel_timeout_internal.so",
+         "/lib/private/libabsl_exponential_biased.so",
+         "/lib/private/libabsl_random_internal_pool_urbg.so",
+         "/lib/private/libabsl_crc_cpu_detect.so",
+         "/lib/private/libabsl_flags_commandlineflag_internal.so",
+         "/lib/private/libabsl_strings_internal.so",
+         "/lib/private/libabsl_crc_internal.so",
+         "/lib/private/libabsl_log_globals.so",
+         "/lib/private/libabsl_flags_usage.so",
+         "/lib/private/libabsl_civil_time.so",
+         "/lib/private/libabsl_raw_logging_internal.so",
+         "/lib/private/libabsl_random_internal_randen.so",
+         "/lib/private/libabsl_flags_commandlineflag.so",
+         "/lib/private/libabsl_bad_any_cast_impl.so",
+         "/lib/private/libabsl_stacktrace.so",
+         "/lib/private/libabsl_failure_signal_handler.so",
+         "/lib/private/libabsl_status.so",
+         "/lib/private/libabsl_log_internal_log_sink_set.so",
+         "/lib/private/libabsl_flags_marshalling.so",
+         "/lib/private/libabsl_time_zone.so",
+         "/lib/private/libabsl_flags.so",
+         "/lib/private/libabsl_log_internal_nullguard.so",
+         "/lib/private/libabsl_log_internal_check_op.so",
+         "/lib/private/libabsl_random_internal_platform.so",
+         "/lib/private/libabsl_log_internal_conditions.so",
+         "/lib/private/libabsl_str_format_internal.so",
+         "/lib/private/libabsl_log_internal_message.so",
+         "/lib/private/libabsl_random_internal_randen_slow.so",
+         "/lib/private/libabsl_statusor.so",
+         "/lib/private/libabsl_debugging_internal.so",
+         "/lib/private/libabsl_random_seed_gen_exception.so",
+         "/lib/private/libabsl_random_seed_sequences.so",
+         "/lib/private/libabsl_symbolize.so",
+         "/lib/private/libabsl_bad_optional_access.so",
+         "/lib/private/libabsl_flags_program_name.so",
+         "/lib/private/libabsl_random_internal_seed_material.so",
+         "/lib/private/libabsl_bad_variant_access.so",
+         "/lib/private/libabsl_log_sink.so",
+         "/lib/private/libcrypto.so.3",
+         "/lib/private/libabsl_crc_cord_state.so",
+         "/lib/private/libabsl_synchronization.so",
+         "/lib/private/libabsl_random_distributions.so",
+         "/lib/private/libabsl_die_if_null.so",
+         "/lib/private/libabsl_flags_reflection.so",
+         "/lib/private/libabsl_spinlock_wait.so",
+         "/lib/private/libabsl_cordz_sample_token.so",
+         "/lib/private/libabsl_log_initialize.so",
+         "/lib/private/libabsl_time.so",
+         "/lib/private/libabsl_random_internal_randen_hwaes.so",
+         "/lib/private/libabsl_hashtablez_sampler.so",
+         "/lib/private/libabsl_flags_config.so",
+         "/lib/private/libabsl_base.so",
+         "/lib/private/libabsl_log_entry.so",
+         "/lib/private/libabsl_raw_hash_set.so",
+         "/lib/private/libabsl_log_flags.so",
+         "/lib/private/libabsl_graphcycles_internal.so",
+         "/lib/private/libabsl_examine_stack.so",
+         "/lib/private/libabsl_log_severity.so",
+         "/lib/private/libabsl_strings.so",
+         "/lib/private/libabsl_flags_parse.so",
+         "/lib/private/libabsl_cordz_functions.so",
+         "/lib/private/libabsl_scoped_set_env.so",
+         "/lib/private/libabsl_demangle_internal.so",
+         "/lib/private/libabsl_cordz_handle.so",
+         "/lib/private/libabsl_string_view.so",
+         "/lib/private/libabsl_low_level_hash.so",
+         "/lib/private/libabsl_malloc_internal.so",
+         "/lib/private/libabsl_throw_delegate.so",
+         "/lib/private/libabsl_log_internal_globals.so",
+         "/lib/private/libssl.so.3",
+         "/lib/private/libabsl_flags_usage_internal.so",
+         "/lib/private/libabsl_random_internal_distribution_test_util.so",
+         "/lib/private/libabsl_int128.so"
       ]
    }
 }
