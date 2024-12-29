@@ -61,13 +61,14 @@
    },
    "8.4.3": { 
       "common": [
-         "/bin/mysqld.gz",
+         "/bin/mysqld.gz"
+      ],
+      "darwin": [
+         "/bin/libprotobuf-lite.24.4.0.dylib",
          "/lib/libcrypto.3.dylib",
          "/lib/libprotobuf.24.4.0.dylib",
-         "/lib/libprotobuf-lite.24.4.0.dylib",
          "/lib/libssl.3.dylib"
-      ],
-      "darwin": [ ], 
+      ], 
       "linux": [
          "/bin/libaio.so.1",
          "/bin/libnuma.so.1",
